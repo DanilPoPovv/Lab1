@@ -12,6 +12,12 @@
         this.Prop2 = Prop2;
         Console.WriteLine("Значения полей успешно изменены");
     }
+    public void SetNullFields()
+    {
+        this.Prop1 = 0;
+        this.Prop2 = 0;
+        Console.WriteLine("Поля успешно обнулены");
+    }
 }
 class Program
 {
