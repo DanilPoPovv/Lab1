@@ -18,6 +18,12 @@
         this.Prop2 = 0;
         Console.WriteLine("Поля успешно обнулены");
     }
+    public void SetDefaultFields()
+    {
+        this.Prop1 = 1;
+        this.Prop2 = 1;
+        Console.WriteLine("Поля успешно установлены в значения по умолчанию");
+    }
 }
 class Program
 {
